@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: #23424A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 40%;
+    padding: 2rem 2rem;
+}
+
+.title {
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.description {
+    font-weight: 400;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.learn-btn {
+    background-color: #38CFD9;
+    border-radius: 2rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #072A2D;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+}
+
+.title, .description, .learn-btn {
+    margin: 2rem 0;
+}
